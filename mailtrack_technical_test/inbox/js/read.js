@@ -1,8 +1,8 @@
 
-console.log('read!');
+
 var user_email = document.getElementsByClassName('username')[0].getElementsByClassName('email')[0].innerHTML;
 
-document.addEventListener("DOMNodeInserted", function(e) {
+//document.addEventListener("DOMNodeInserted", function(e) {
     console.log('change detected!')
   arr = document.querySelectorAll('tr + tr')
   arr.forEach(function(item){
@@ -14,4 +14,4 @@ document.addEventListener("DOMNodeInserted", function(e) {
 
   })
   
-}, false);
+//}, false);
